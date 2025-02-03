@@ -21,7 +21,7 @@ const accountSchema= Schema({
         ref: 'User',
         required: true
     },
-    balance:{
+    Balance:{
         type: Number,
         required:true
     }
